@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #FDE7E7;
 }
 
 header .container {
@@ -151,7 +151,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    background: #444444;
+    background: #FFB3B3;
 }
 
 .navbar a:focus {
