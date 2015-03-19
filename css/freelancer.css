@@ -15,6 +15,20 @@ p {
 p.small {
     font-size: 16px;
 }
+p br {
+    display: none;
+}
+.brk {
+    display: block;
+}
+@media(min-width:768px) {
+    p br {
+        display: inline;
+    }
+    .brk {
+        display: inline;
+    }
+}
 
 a,
 a:hover,
@@ -36,6 +50,7 @@ h6 {
     font-weight: 700;
     font-color: #fff;
     font-size: 20px;
+    line-height: 1.5;
 }
 
 hr.star-light,
@@ -95,7 +110,11 @@ header img {
 }
 
 header h2 {
+    color: #fff;
+}
+header p {
     color: #2c3e50;
+    text-align: left;
 }
 
 header .intro-text .name {
@@ -202,6 +221,9 @@ section {
     section.first {
         padding-top: 75px;
     }
+}
+#showdata {
+    background-color: #ffb3b3;
 }
 
 #portfolio .portfolio-item {
@@ -483,3 +505,43 @@ footer .footer-below {
     color: #E9619F;
     padding-right: 10px;
 }
+
+.chart {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin: 40px auto;
+ // margin-bottom: 50px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  line-height: 75px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+.angular {
+  margin-top: 100px;
+}
+.angular .chart {
+  margin-top: 0;
+}
+.span6 {
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 430px) {
+  .span6 {
+    float: none;
+    width: 100%;
+  }
