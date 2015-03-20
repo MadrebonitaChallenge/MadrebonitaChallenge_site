@@ -27,12 +27,12 @@ jQuery(document).ready(function(){
                 doIn: function () {
                     $(this).find('.chart').easyPieChart({
                        animate: 1000,
-					  lineWidth: 3,
-					  barColor:'#2f2f2f',
+					  lineWidth: 10,
+					  barColor:'#E9619F',
 					  trackColor:'#dcdcdc',
 					  lineCap:false,
-					  lineWidth:'2',
-					  size:'72',
+					  lineWidth:'12',
+					  size:'120',
 					  scaleColor:false,
 						
 						scaleColor:false,
