@@ -9,11 +9,11 @@ body {
 }
 
 p {
-    font-size: 20px;  
+    font-size: 15px;  
 }
 
 p.small {
-    font-size: 16px;
+    font-size: 12px;
 }
 p br {
     display: none;
@@ -197,7 +197,7 @@ header .intro-text .skills {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 1.7em;
 }
 
 section.success {
@@ -508,9 +508,9 @@ footer .footer-below {
 
 .chart {
   position: relative;
-  width: 70px;
-  height: 70px;
-  margin: 40px auto;
+  width: 120px;
+  height: 120px;
+  margin: 60px auto;
  // margin-bottom: 50px;
   text-align: center;
 }
@@ -521,7 +521,7 @@ footer .footer-below {
 }
 .percent {
   display: inline-block;
-  line-height: 75px;
+  line-height: 120px;
   z-index: 2;
 }
 .percent:after {
